@@ -1,0 +1,405 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Visitor.master.cs" Inherits="User_Visitor" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from codingeek.io/html/zarxio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2021 12:49:19 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KG Fitness</title>
+     <!-- favicon -->
+     <link rel=icon href=assets/img/top.png sizes="20x20">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+     <!-- nice select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css"> 
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- hamburgers -->
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <!-- twentytwenty -->
+    <link rel="stylesheet" href="assets/css/twentytwenty.css">
+    <!-- Date Picker -->
+    <link href="assets/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <!-- Time Picker -->
+    <link rel="stylesheet" href="assets/css/wickedpicker.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- nice select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!-- responsive Stylesheet -->
+     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Codingeek -->
+    <link rel="stylesheet" href="../../../codingeek.net/codingeek-js/codingeek.html">  
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <img src="assets/img/loader.gif" alt="">
+      <%-- <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>               
+           </div>--%>
+           </div>
+           
+    </div>
+    <!-- preloader area end -->
+
+    <div class="info-popup">
+        <div class="info-popup-content">
+            <button type="button" class="info-popup-content_close">X</button>
+            <div class="row no-gutters">
+                <div class="col-xl-7 col-12 col-sm-6">
+                    <div class="info-popup-content__img info-popup-content__img--one"></div>
+                </div>
+                <div class="col-xl-5 col-12 col-sm-6">
+                    <div class="info-popup-content__text">
+                        <div class="info-popup-content__text-header">
+                            <h3 class="info-popup-content__title">Opening Hours</h3>
+                        </div>
+                        <div class="info-popup-content__text-body">
+                            <span class="info-popup-content__text-is">Monday - Saturday</span>
+                            <span class="info-popup-content__text-is">6.00 AM - 9.00 PM</span>
+                        </div>
+                         <div class="info-popup-content__text-header">
+                            <h3 class="info-popup-content__title">Contact Us On</h3>
+                        </div>
+                        <div class="info-popup-content__text-footer">
+                            <span class="info-popup-content__text-is">0261 222 5505</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--info-popup-->
+
+     <div class="location-popup">
+        <div class="location-popup-content">
+            <button type="button" class="message-popup-content_close">X</button>
+            <div class="row no-gutters">
+                <div class="col-lg-7 col-12 col-sm-6">
+                    <div class="mapouter1">
+                        <div class="gmap_canvas1">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.7867285021634!2d72.77028821481194!3d21.1608840859269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d91b765a3a3%3A0x632d46b1abea0c5e!2sKG%20FITNESS%20SURAT!5e0!3m2!1sen!2sin!4v1622547724143!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas1" width="100%" height="100%" ></iframe>
+                            <%--<iframe width="100%" height="100%" id="gmap_canvas1" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>--%>
+                            <a href="https://www.embedgooglemap.net/blog/elementor-pro-discount-code-review/">elementor review</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 col-sm-6">
+                    <div class="location-popup-content__text">
+                        <div class="location-popup-content__text-header">
+                            <h3 class="location-popup-content__title">KG FITNESS</h3>
+                        </div>
+                        <div class="location-popup-content__text-body">
+                            <span class="location-popup-content__text-is">
+                                 3rd Floor KG Heights,<br />
+                                Gaurav path Next To Iscon Mall, <br />
+                                 Piplod, Surat, Gujarat 395007
+                            </span>
+                        </div>
+                        <div class="btn-wrapper desktop-center">
+                            <a href="https://goo.gl/maps/GvLRnLXnFmnSzvSv8" target="_blank" class="btn btn-element btn-normal-size btn-main-color btn-rounded">Open in maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--location-popup-->
+    
+    <%--<div class="message-popup">
+        <div class="message-popup-content">
+            <button type="button" class="message-popup-content_close">X</button>
+            <div class="row no-gutters">
+                <div class="col-lg-7 col-12 col-sm-6">
+                    <div class="message-popup-content__text text-left pl-5">
+                        <div class="message-popup-content__text-header">
+                            <h3 class="message-popup-content__title mb-3">
+                                You have a question for us?
+                            </h3>
+                        </div>
+                        <div class="message-popup-content__text-body">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-12 margin-top-20">
+                                        <input type="text" placeholder="Email address" class="contact-form__input"/>
+                                    </div>
+                                    <div class="col-12 margin-top-20">
+                                        <textarea name="Message" placeholder="Message" class="contact-form__textarea" cols="30" rows="2" ></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="btn-wrapper desktop-center margin-top-40">
+                                            <a href="#" class="btn btn-element btn-normal-size btn-main-color btn-rounded">Send Us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 col-sm-6">
+                    <div class="message-popup-content__img message-popup-content__img--three"></div>
+                </div>
+            </div>
+        </div>
+    </div><!--message-popup-->--%>
+
+
+    <!-- navbar start -->
+    <div class="zarxio-navbar">
+        <nav class="navbar navbar-area navbar-expand-lg black-bg nav-style-02">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#billatrail_main_menu" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="UHomeVS.aspx"> <img src="assets/img/logo1.png" alt="logo"></a>
+                </div>
+               
+               <div class="collapse navbar-collapse" id="billatrail_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="hidden-md">
+                            <a href="UHomeVS.aspx">HOME</a>
+                            
+                        </li>
+
+                        <li class="hidden-md"><a href="AboutUsVS.aspx">ABOUT US</a></li>
+                        <li class="hidden-md">
+                            <a href="TrainerVS.aspx">TRAINER</a>
+                            
+                        </li>
+                        <li class="hidden-md">
+                            <a href="MembershipPricingVS.aspx">MEMBERSHIP</a>
+                            
+                        </li>
+                        <li class="hidden-md">
+                            <a href="GalleryVS.aspx">GALLERY</a>
+                            
+                        </li>
+                        <%--<li class="hidden-md">
+                            <a href="#">CONTACT</a>
+                            
+                        </li>--%>
+                         <li class="hidden-md">
+                            <a href="SignIn.aspx">LOGIN</a>
+                            
+                        </li>
+
+                       
+                       <%-- <li class="menu-item-has-children">
+                            
+                            <asp:Image ID="Image1" class="avatar-img rounded-circle" Height="50px" Width="50px" runat="server"></asp:Image>
+                            <ul class="sub-menu">
+                                <li><a href="UProfile.aspx">View Profile</a></li>
+                                <li><a href="MemberInvoiceList.aspx">Invoice</a></li>
+                                <li><a href="ChangePassword.aspx">Change Password</a></li>
+                                <li><a href="FeedBack.aspx">Feedback</a></li>
+                                 <li><a href="SignIn.aspx">Sign Out</a></li>
+                            </ul>
+                            </li>--%>
+                            <li></li>
+                       <%-- <li class="hidden-md">
+                            <a href="#">Pages</a>
+                            
+                        </li>
+                        <li class="hidden-md"><a href="contact.html">Contact</a></li>--%>
+                    </ul>
+                </div>
+				
+
+
+
+                <div class="nav-right-part">
+                    <ul>
+                       <%-- <li class="search" id="search">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </li>--%>
+                        <li>
+                            <div class="hamberger-area d-none d-lg-block">
+                                <div class="menu-toggle hamburger hamburger--squeeze is-active">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+	
+	
+	 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	
+	
+	
+
+
+    <!-- brand-area start -->
+    <div class="brand-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand-slider">
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand1.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand2.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand3.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand4.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand5.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand1.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand2.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand3.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand4.png" alt="brand">
+                        </div>
+                        <div class="brant-item">
+                            <img src="assets/img/brand/brand5.png" alt="brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand-area end -->
+
+    <!-- footer area start -->
+    <footer class="footer-area footer-style-2 footer-bg padding-top-100">
+        <div class="footer-top padding-top-60 padding-bottom-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-12">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <ul>
+                                <li><a href="UHomeVS.aspx">HOME</a></li>
+                                <li><a href="AboutUsVS.aspx">ABOUT US</a></li>
+                                <li><a href="TrainerVS.aspx">TRAINER</a></li>
+                                 <%--<li><a href="#">GALLERY</a></li>--%>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-widget widget">
+                            <div class="about_us_widget">
+                                <a href="UHome.aspx" class="footer-logo"> 
+                                    <img src="assets/img/logo1.png" alt="footer logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <ul>
+                                <li><a href="MembershipPricingVS.aspx">MEMBERSHIP</a></li>
+                                <li><a href="GalleryVS.aspx">GALLERY</a></li>
+                                <li><a href="SignIn.aspx">LOGIN</a></li>
+                                <%--<li><a href="#">Contact Us</a></li>--%>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area-inner">
+                            ©All rights reserved. Powered by <a href="https://codingeek.net/" target="_blank">VIRAL JARIWALA & JAY GOR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- Slick -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Slick Animation -->
+    <script src="assets/js/slick-animation.js"></script>
+    <!-- wow -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- nice select -->
+    <script src="assets/js/nice-select.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- waypoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- validate -->
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <!-- contact form -->
+    <script src="assets/js/contact-form.js"></script>
+     <!-- rProgressbar -->
+    <script src="assets/js/jQuery.rProgressbar.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- codingeek -->
+    <script src="codingeek-link.js"></script>
+    <script src="../../../codingeek.net/codingeek-js/codingeek-2.html"></script>
+</body>
+
+<!-- Mirrored from codingeek.io/html/zarxio/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2021 12:49:22 GMT -->
+</html>
